@@ -210,9 +210,15 @@ if __name__ == "__main__":
     users = config["user"]
     region = config["region"]
     weather_day_text, weather_day_icon, weather_night_text, weather_night_icon, temp_max, temp_min = get_weather(region)
-    note_en1, note_en2, note_ch1, note_ch2 = get_ciba()
+    note_ch1 = config["note_ch1"]
+    note_ch2 = config["note_ch2"]
+    note_en1 = config["note_en1"]
+    note_en2 = config["note_en2"]
     note_de1 = config["note_de1"]
     note_de2 = config["note_de2"]
+    if ((config["note_ch1"] == "") && (config["note_ch2"] == "")): note_ch1, note_ch2 = get_ciba()
+    if ((config["note_en1"] == "") && (config["note_en2"] == "")): note_en1, note_en2 = get_ciba()
+    if ((config["note_de1"] == "") && (config["note_de2"] == "")): note_de1, note_de2 = get_ciba()
     for user in users:
         send_message(user, access_token, region, weather_day_text, weather_day_icon, weather_night_text, weather_night_icon, temp_max, temp_min, note_ch1, note_ch2, note_en1, note_en2, note_de1, note_de2)
     os.system("pause")

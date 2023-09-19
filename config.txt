@@ -26,7 +26,7 @@
 "note_ch2": "",
 # 德语
 "note_de1": "Das Leben wird nicht leichter, ",
-"note_de2": "du wirdst nur stärker",
+"note_de2": "du wirdst nur staerker",
 # 英文
 "note_en1": "",
 "note_en2": ""

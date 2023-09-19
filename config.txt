@@ -1,0 +1,32 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wxc2978ca612db3959",
+# 公众号appSecret
+"app_secret": "9a2cf134fe6679f39629790acec91345",
+# 模板消息id
+"template_id": "jhTuCUCG77zmOgN5qK56I5m91zx8ZQsiYkF291_FQQA",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["oPRD_6uWsU-n9280IM4eN8gi1KqY", "oPRD_6s7MJEGm8Y-cSjrrErOqRa0"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "ee86eae44d074cc0b717f4447c81ce7e",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "上海",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "宝贝", "birthday": "2001-10-08"},
+# 生日2
+"birthday2": {"name": "男朋友", "birthday": "2002-09-21"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2021-04-24",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch1": "玫瑰即使换个名字，也依然芬芳",
+"note_ch2": "",
+# 每日一句德语
+"note_de1": "Das Leben wird nicht leichter, ",
+"note_de2": "du wirdst nur stärker",
+# 金句英文
+"note_en1": "The front is a dead road, ",
+"note_en2": "hope is around the corner"
+}

@@ -55,7 +55,7 @@ def get_day_left(day, year, today):
         day_date_next = today
     else:
         day_date_next = day_date_toyear
-    day_left = str(day_date_next.__sub__(today)).split("")[0]
+    day_left = str(day_date_next.__sub__(today)).split(" ")[0]
     return day_left
 
 def get_ciba():

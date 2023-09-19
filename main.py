@@ -167,12 +167,6 @@ def send_message(to_user, access_token, region_name, weather_day_text, weather_d
             },
             "note_en2": {
                 "value": note_en2,
-            },
-            "note_de1": {
-                "value": note_de1,
-            },
-            "note_de2": {
-                "value": note_de2,
             }
             }
         }

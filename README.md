@@ -24,7 +24,6 @@
 
 “{{note_ch1.DATA}}{{note_ch2.DATA}}”  
 "{{note_en1.DATA}}{{note_en2.DATA}}"  
-"{{note_de1.DATA}}{{note_de2.DATA}}"
 
 ## 和风天气控制台
 

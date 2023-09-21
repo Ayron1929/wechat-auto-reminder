@@ -101,7 +101,7 @@ def send_message(to_user, access_token, region_name, weather_day_text, weather_d
     birthday_data1 = []
     birthday_data2 = []
     for key, value in birthdays.items():
-        birthday_left = (get_day_left(value["birthday"], year, today))
+        birthday_left = get_day_left(value["birthday"], year, today)
         if birthday_left == 0:
             birthday_data1.append("今天是<{}>生日哦，".format(value["name"]))
             birthday_data2.append("祝<{}>生日快乐".format(value["name"]))

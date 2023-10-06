@@ -26,5 +26,8 @@
 "note_ch2": "却从没想过先改变自己",
 # 英文
 "note_en1": "Everyone thinks of changing the world, ",
-"note_en2": "but no one thinks of changing himself"
+"note_en2": "but no one thinks of changing himself",
+# 德语
+"note_de1": "",
+"note_de2": ""
 }

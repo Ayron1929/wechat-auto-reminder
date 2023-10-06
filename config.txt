@@ -22,11 +22,11 @@
 "love_date": "2021-04-24",
 # 每日一句，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日一句（中英）
 # 中文
-"note_ch1": "大家都只想着改变世界，",
-"note_ch2": "却从没想过先改变自己",
+"note_ch1": "",
+"note_ch2": "",
 # 英文
-"note_en1": "Everyone thinks of changing the world, ",
-"note_en2": "but no one thinks of changing himself",
+"note_en1": "",
+"note_en2": "",
 # 德语
 "note_de1": "",
 "note_de2": ""

@@ -30,3 +30,6 @@
 ### https://id.qweather.com/
 
 ## 还可以去天行数据申请别的接口
+
+## Feedback
+ayron1929@gmail.com
